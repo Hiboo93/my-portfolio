@@ -2,6 +2,7 @@ import Link from "next/link"
 import Nav from "./Nav"
 import { Button } from "./ui/button"
 
+
 const Header = () => {
   return (
     <header className="py-8 xl:py-12 text-white">
@@ -23,7 +24,7 @@ const Header = () => {
 
         {/* mobile nav */}
         <div className="xl:hidden">
-          mobile nav
+          
         </div>
       </div>
     </header>
