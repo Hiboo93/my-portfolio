@@ -1,4 +1,4 @@
-export type linkType = {
+export type LinkType = {
   id: number;
   name: string;
   path: string;
