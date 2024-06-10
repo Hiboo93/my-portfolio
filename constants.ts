@@ -1,6 +1,6 @@
-import { linkType } from "./types";
+import { LinkType } from "./types";
 
-export const LINKS:linkType[] = [
+export const LINKS:LinkType[] = [
   {
     id: 1,
     name: "home",
@@ -28,7 +28,7 @@ export const LINKS:linkType[] = [
   },
 ];
 
-export const LINKSMOBILE:linkType[] = [
+export const LINKSMOBILE:LinkType[] = [
   {
     id: 1,
     name: "home",
@@ -53,5 +53,24 @@ export const LINKSMOBILE:linkType[] = [
     id: 5,
     name: "contact",
     path: "/contact",
+  },
+];
+
+export const STATS = [
+  {
+    num: 1,
+    text: "Years of experience",
+  },
+  {
+    num: 1,
+    text: "Projects completed",
+  },
+  {
+    num: 2,
+    text: "Technologies mastered",
+  },
+  {
+    num: 8,
+    text: "Landing page",
   },
 ];
